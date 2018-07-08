@@ -1,0 +1,124 @@
+.wbdCv-resume{position:relative; padding:50px 30px; border-right:20px solid #ebebeb; border-left:20px solid #000;}
+.wbdCv-baseLeft{position:relative; overflow:hidden; padding:0 0 30px 0; margin-bottom:30px; background:#fff; border-bottom:3px solid #ebebeb;}
+.wbdCv-baseLeft:before{content:""; position:absolute; bottom:0; left:0; width:130px; height:5px; background:#000;}
+.wbdCv-baseRight{ background:#fff;}
+.wbdCv-baseTop{position:absolute; top:0; left:0; width:100%; height:20px; background:#ebebeb;}
+.wbdCv-baseTop:before{content:""; position:absolute; top:0; left:0; width:50%; height:20px; background:#000;}
+.wbdCv-baseBottom{position:absolute; bottom:0; left:0; width:100%; height:20px; background:#ebebeb;}
+.wbdCv-baseBottom:before{content:""; position:absolute; top:0; left:0; width:50%; height:20px; background:#000;}
+
+
+.wbdCv-baseLeft .baseItem-null{display:none;}
+
+/*基本信息*/
+.headItem.template_css{float:left;width:150px;}
+.headItem.template_css dd{margin:0; padding:0;}
+.headItem.template_css .head-con{margin:0;}
+.bInfoItem.template_css{float:left;width:570px;}
+.bInfoItem.template_css dl{padding:0;}
+.bInfoItem.template_css .info-list{position:relative;display:inline-block;margin: 0 5px;}
+.bInfoItem.template_css .info-list .wbdfont{display:none;}
+.bInfoItem.template_css .info-list:before{top: 5px;right: -10px;position:absolute;content:"";width:1px;border-left: 2px solid #b8b8b8;height: 14px;}
+
+.nameItem.template_css{padding-top: 10px;}
+.nameItem.template_css .name-con .name{color:#222; display:inline-block; margin-right: 5px;}
+.nameItem.template_css .name-con .resume_tag{display:inline-block; height:45px; line-height:47px;}
+.nameItem.template_css .name-con .resume_tag span{border-color:#404552; color:#404552;}
+
+.socialItem.template_css .social-list a{background:transparent url(../images/social/j17_social.png) no-repeat 0 0; border:1px solid #cecece;}
+
+.homeItem.template_css .home-list{width:auto; display:inline-block;}
+
+.baseItem.template_css dl dt{margin-bottom:10px;}
+.baseItem.template_css dl dt span{color:#222;}
+.baseItem.template_css dl dt a.wbdfont,.infoItem.template_css dl dt a.wbdfont{display:none;}
+
+.baseItem.template_css .dd-title span.time{position:relative; width:129px;float:right;margin:0;text-align:right;}
+.baseItem.template_css .dd-title span.company{width:280px;}
+.baseItem.template_css .dd-title span.post{width:260px;}
+
+/*作品展示*/
+.workItem .work-list{width:48%; margin-right:19px;border:1px solid #e9e9e9;}
+.workItem .work-list .work-img{width:100%; overflow:hidden;}
+.workItem .work-list .work-img img{display:block; width:100%;}
+.workItem .work-list:nth-of-type(even){margin-right:0;}
+
+/*兴趣爱好*/
+.hobbyItem.template_css .hobby-list{width:75px;}
+.hobbyItem.template_css .hobby-list{margin:0 32px 20px 0;}
+.hobbyItem.template_css .hobby-list:nth-child(7n+8){margin-right:0;}
+.hobbyItem.template_css .hobby-list a.wbdfont{font-size:28px; display:block; text-align:center; line-height:70px; width:75px; height:70px; border:1px solid #92a2b2; border-radius:4px;}
+.hobbyItem.template_css .hobby-list .hobby-title{width:75px;}
+
+/*职业技能*/
+.skillItem.template_css .skill-list{width:180px; margin:0 80px 20px 0;}
+.skillItem.template_css .skill-list:nth-of-type(3n-2){margin-right:0;}
+.skillItem.template_css .skill-slider{position:relative; width:180px;}
+.skillItem.template_css .skill-slider s{width:180px;}
+.skillItem.template_css .skill-slider span{position:absolute; top:-26px; right:0;}
+
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseTop:before{background:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseTop:before{background:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseTop:before{background:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseTop:before{background:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseTop:before{background:#2bc017;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseTop:before{background:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseTop:before{background:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseTop:before{background:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseTop:before{background:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseTop:before{background:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseTop:before{background:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseTop:before{background:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseTop:before{background:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseTop:before{background:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseTop:before{background:#69cc41;}
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseLeft:before{background:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseLeft:before{background:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseLeft:before{background:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseLeft:before{background:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseLeft:before{background:#2bc017;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseLeft:before{background:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseLeft:before{background:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseLeft:before{background:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseLeft:before{background:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseLeft:before{background:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseLeft:before{background:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseLeft:before{background:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseLeft:before{background:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseLeft:before{background:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseLeft:before{background:#69cc41;}
+
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseBottom:before{background:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseBottom:before{background:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseBottom:before{background:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseBottom:before{background:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseBottom:before{background:#2bc017;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseBottom:before{background:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseBottom:before{background:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseBottom:before{background:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseBottom:before{background:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseBottom:before{background:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseBottom:before{background:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseBottom:before{background:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseBottom:before{background:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseBottom:before{background:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseBottom:before{background:#69cc41;}
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-resume{border-left-color:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-resume{border-left-color:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-resume{border-left-color:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-resume{border-left-color:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-resume{border-left-color:#2bc017;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-resume{border-left-color:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-resume{border-left-color:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-resume{border-left-color:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-resume{border-left-color:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-resume{border-left-color:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-resume{border-left-color:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-resume{border-left-color:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-resume{border-left-color:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-resume{border-left-color:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-resume{border-left-color:#69cc41;}

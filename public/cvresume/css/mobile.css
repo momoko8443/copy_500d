@@ -1,0 +1,94 @@
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+body {font-size: 1.4rem;/*1.4 × 10px = 14px */}
+.wbdCv-baseStyle{min-width: 320px;max-width: 640px;}
+.wbdCv-container.mobile{width: 366px;box-shadow: none;background: #f2f2f2;margin: 74px auto 70px;}
+.wbdCv-container.mobile .mobile-head{width: 366px;height: 69px;background: #00c091 url("../images/mobile_head.png") no-repeat bottom center;background-size: cover;}
+.wbdCv-container.mobile .mobile-bottom{width: 366px;height: 47px;background: #00c091 url("../images/mobile_bottom.png") no-repeat top left;background-size: cover;}
+.cv-preview .wbdCv-container.mobile .mobile-head{background:#2f2f2f url("../images/mobile_head.png") no-repeat bottom center;    background-size: cover;}
+.cv-preview .wbdCv-container.mobile .mobile-bottom{background: #2f2f2f url("../images/mobile_bottom.png") no-repeat top left;    background-size: cover;}
+.cv-preview .wbdCv-container.mobile{box-sizing:content-box; border:227px solid #2f2f2f;border-top-width:50px;border-bottom-width:50px; margin-top: 38px;}
+.wbdCv-header .download-pdf,.preview-header .download{display: none;}
+.wbdCv-baseStyle{width: 360px;margin: 0 auto;background: #fff;}
+.cv-preview body{min-width:auto;}
+.cv-preview .wbdCv-baseStyle{width: 360px;margin: 0 auto;background: #fff;overflow: hidden;overflow-y: auto;}
+.cv-preview .baseItem-null{display:none !important;}
+.wbdCv-baseStyle .bInfoItem dl{padding: 0;}
+.wbdCv-baseStyle .baseItem dl, .wbdCv-baseStyle .bInfoItem dl{padding: 30px 20px 0 20px;}
+.wbdCv-baseStyle .baseItem dl{padding-bottom: 30px;}
+.wbdCv-baseStyle .infoItem{margin-top: 15px;}
+.wbdCv-baseStyle .infoItem dl dd a.wbdfont{display: none;}
+.wbdCv-baseStyle .infoItem .info-con{text-align: center;}
+.wbdCv-baseStyle .infoItem .info-list span{float: left;line-height: 12px;color: #4b4b4b;}
+.wbdCv-baseStyle .infoItem .info-list,.wbdCv-baseStyle .homeItem .home-list{display: inline-block;padding: 0 10px 0 6px;border-right: 1px solid #fff;line-height: 12px;}
+.wbdCv-baseStyle .infoItem .info-list:last-child,.wbdCv-baseStyle .homeItem .home-list:last-child{border-right-color: transparent;}
+.wbdCv-baseStyle .bInfoItem a.delete{right: -11px;top: -8px;}
+.wbdCv-baseStyle .homeItem{text-align: center;margin: 0;}
+.wbdCv-baseStyle .homeItem dl{padding-top: 10px;}
+.wbdCv-baseStyle .home-list{display: inline-block;width: auto;}
+.wbdCv-baseStyle .home-list a.wbdfont{display: none;}
+.wbdCv-baseStyle .home-list .name{color: #4b4b4b;padding-right: 0;text-decoration: underline; }
+.wbdCv-baseStyle .socialItem{text-align: center;}
+.wbdCv-baseStyle .socialItem .social-list a{box-shadow: none;}
+.wbdCv-baseStyle .nameItem .name-con .name{color: #010101;}
+.wbdCv-baseStyle .nameItem .name-con .word{margin-top:10px; color: #4b4b4b;}/*适配标签修改，留出距离*/
+.wbdCv-baseStyle .inteItem .inte-list a.wbdfont{width: 16px;height: 16px;line-height: 16px;font-size: 14px;display: inline-block;}
+.wbdCv-baseStyle .inteItem .inte-list span{height: 16px;line-height: 16px;display: inline-block;}
+.wbdCv-baseStyle .inteItem .inte-con .inte-list{display: inline-block;margin: 0;margin-bottom: 12px;float: left;}
+.wbdCv-baseStyle .inteItem .inte-con .inte-list:nth-child(2n+1){width:60%}
+.wbdCv-baseStyle .inteItem .inte-con .inte-list:nth-child(2n){width:40%}
+.wbdCv-baseStyle .inteItem .inte-con .inte-list:last-child{margin-bottom:0;}
+.wbdCv-baseStyle .baseItem dt{margin-bottom: 20px;}
+.wbdCv-baseStyle .baseItem dt a.wbdfont,.wbdCv-baseStyle .baseItem dt span{display: inline-block;height: 30px;line-height: 30px;}
+.wbdCv-baseStyle .baseItem dt a.wbdfont{width: 30px;border-radius: 50%;text-align: center;margin-right: 5px;}
+.wbdCv-baseStyle .baseItem dl dt span div{font-weight: normal;}
+.wbdCv-baseStyle .baseItem .dd-title span{}
+.wbdCv-baseStyle .baseItem .dd-title span.time{width: 50%;margin: 0px;}
+.wbdCv-baseStyle .baseItem .dd-title span.company{width: 50%;margin: 0px;}
+.wbdCv-baseStyle .baseItem .dd-title span.post{width: 100%;}
+.wbdCv-baseStyle .socialItem .social-list {margin: 0px 3px;}
+.wbdCv-baseStyle .socialItem .social-list a{width: 36px;height: 36px;}
+.wbdCv-baseLeft .baseItem-null{display: none;}
+.wbdCv-baseRight .baseItem .dd-title {margin-bottom: 10px;}
+.contactItem{width: 360px;}
+.contactItem .contact-con div[contenteditable]{width: 100%;}
+.contactItem .contact-con div[contenteditable].phone{width: 100%;}
+
+
+.wbdCv-baseStyle .skillItem .skill-list{}
+.wbdCv-baseStyle .skill-list .skill-slider s{width: 65%;}
+.wbdCv-baseStyle .skill-list .skill-slider span{width: 30%;}
+
+.wbdCv-baseStyle .ewmItem .ewm-con{padding-bottom: 20px;}
+
+.wbdCv-baseStyle .socialItem .social-list .social-preview{top:38px;}
+
+/*兴趣爱好*/
+.wbdCv-baseStyle .hobbyItem .hobby-con{}
+.wbdCv-baseStyle .hobbyItem .hobby-list{margin: 0 1% 0 0;width: 32%;}
+.wbdCv-baseStyle .hobbyItem .hobby-list a.wbdfont{font-size: 28px;display: block;text-align: center;line-height:60px;width: 70%;margin: 0 auto;height: 60px;border: 1px solid rgb(211, 211, 211);border-radius: 4px;}
+.wbdCv-baseStyle .hobbyItem .hobby-list .hobby-title{width: 100%;margin-top: 3px;}
+/*职业技能*/
+.wbdCv-baseStyle .skill-list .skill-slider s{background: #f2f2f2;}
+.wbdCv-baseStyle .skill-list .skill-slider s i{background: #0b70bd;}
+.wbdCv-baseStyle .skillItem .skill-list{margin-bottom: 5px;}
+/*作品展示*/
+.wbdCv-baseStyle .work-list{width: 100%;margin-right: 9px;border: 1px solid #e9e9e9;}
+.wbdCv-baseStyle .work-list .work-img{height: 216px;overflow: hidden;width: 100%;}
+.wbdCv-baseStyle .work-list .work-img img{display: block;width: 100%;}
+.wbdCv-baseStyle .work-list:nth-of-type(even){margin-right: 0px;}
+/*推荐信*/
+.wbdCv-baseStyle .recomentItem .recoment-list .headimg{border-radius: 50%;margin: 0 auto;float: none;display: block;overflow: hidden;}
+.wbdCv-baseStyle .recomentItem .recoment-list .info{width: 100%;}
+.wbdCv-baseStyle .recomentItem .recoment-list .info span{display: block;text-align: center;}
+.wbdCv-baseStyle .recomentItem .recoment-list .info span.name{font-size: 18px;color: #525252;padding: 5px 0 10px 0;}
+
+.wbdCv-baseStyle .contactItem .contact-con div[contenteditable]{width: 100%;}
+
+
+/*字体大小*/
+.wbdCv-baseStyle .nameItem .name-con .name{font-size: 18px; font-weight:400;}
+.wbdCv-baseStyle .baseItem dl dt span div{font-size: 16px;}
+
+/*隐藏更换模块样式*/
+.baseItem-toolbar span.change_style{display:none;}
+.baseItem-toolbar .set .recovery_style{display:none;}

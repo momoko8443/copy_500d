@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://www.500d.me/cvresume/edit/?resumeId=0&itemid=206 -->
+<html class="wbd_cvresume_edit gr__500d_me">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="renderer" content="webkit">
+	<meta name="keywords" content="在线编辑,简历在线编辑">
+	<meta name="description" content="简历在线编辑，多个主题选择，不同主题导出不同简历。">
+	<title>在线编辑简历模板 - 五百丁简历</title>
+	<!-- <link href="./editresume/cropper.min-v=7084.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="./css/layer-v=7084.css">
+	<link rel="stylesheet" href="./css/animate-v=7084.css">
+	<link rel="stylesheet" href="./css/shake-v=7084.css">
+	<link rel="stylesheet" href="./assets/base.css">
+	<link rel="stylesheet" href="./fancybox/jquery.fancybox-v=7084.css">
+	<link rel="stylesheet" href="./common/css/common-v=7084.css">
+	<link rel="stylesheet" href="./cvresume/css/common-v=7084.css">
+	<link rel="stylesheet" href="./cvresume/css/parts_css-v=7084.css">
+	<link rel="stylesheet" href="./cvresume/css/edit-v=7084.css">
+	
+
+	<link id="resumeStylesheet" rel="stylesheet" href="./cvresume/css/bg0019.css">
+	<style type="text/css">
+		.fancybox-margin {
+			margin-right: 8px;
+		}
+	</style>
+</head>
+
+<body data-gr-c-s-loaded="true" uku-application>
+	
+	<div style="text-align: center;padding-top: 20px">
+		
+		<select  style="font-size: 32px" uku-selected="appCtrl.selectedTemplate|name" uku-onchange="appCtrl.changeTemplate(appCtrl.selectedTemplate.name)">
+			<option uku-repeat="item in appCtrl.templates" uku-value="item.name" uku-data-item="item">
+				{{item.name}}
+			</option>
+		</select>
+		<!-- <button uku-onclick="appCtrl.changeTemplate()">Change Template</button> -->
+	</div>
+	<div id="mainContainer" class="wbdCv-container resume ">
+		<!-- <my-resume-jm0203></my-resume-jm0203> -->
+		<my-resume-bg0019></my-resume-bg0019>
+	</div>
+</body>
+<script src="ukulelejs/dist/uku.js"></script>
+<script>
+	var templates = [{
+				name: 'bg0019'
+			},
+			{
+				name: 'jl0001'
+			},
+			{
+				name: 'jl0002'
+			},
+			{
+				name: 'jl0003'
+			},
+			{
+				name: 'jl0004'
+			},
+			{
+				name: 'jl0005'
+			},
+			{
+				name: 'jl0006'
+			},
+			{
+				name: 'jm0001'
+			},
+			{
+				name: 'jm0001y'
+			},
+			{
+				name: 'jm0073'
+			},
+			{
+				name: 'jm0080'
+			},
+			{
+				name: 'jm0084'
+			},
+			{
+				name: 'jm0086'
+			},
+			{
+				name: 'jm0087'
+			},
+			{
+				name: 'jm0106'
+			},
+			{
+				name: 'jm0193'
+			},
+			{
+				name: 'jm0203'
+			},
+			{
+				name: 'jm0206'
+			},
+			{
+				name: 'jm0208'
+			},
+			{
+				name: 'jm0211'
+			},
+			{
+				name: 'jm0217'
+			},
+			{
+				name: 'jm0225'
+			},
+			{
+				name: 'jm0226'
+			},
+			{
+				name: 'jm0256'
+			},
+			{
+				name: 'jm0283'
+			},
+			{
+				name: 'jm0284'
+			},
+			{
+				name: 'jm0288'
+			},
+			{
+				name: 'jm0290'
+			},
+			{
+				name: 'jm0295'
+			},
+			{
+				name: 'jm0306'
+			},
+			{
+				name: 'jm0347'
+			},
+			{
+				name: 'jm0350'
+			},
+			{
+				name: 'jm0369'
+			},
+			{
+				name: 'sjs0003'
+			},
+			{
+				name: 'sjs0056'
+			},
+			{
+				name: 'sjs0061'
+			},
+			{
+				name: 'sjs0081'
+			},
+			{
+				name: 'sjs0086'
+			},
+			{
+				name: 'sjs0087'
+			},
+			{
+				name: 'sjs0095'
+			},
+			{
+				name: 'sjs0102'
+			},
+			{
+				name: 'sjs0139'
+			},
+			{
+				name: 'sjs0140'
+			},
+			{
+				name: 'sjs0141'
+			},
+			{
+				name: 'um0061'
+			},
+			{
+				name: 'um0072'
+			},
+			{
+				name: 'um0084'
+			},
+			{
+				name: 'wm0008'
+			},
+			{
+				name: 'yw0005'
+			},
+			{
+				name: 'yw0080'
+			}
+		];
+	var uku = new Ukulele();
+	var appCtrl = new ApplicationController(uku);
+	uku.registerController('appCtrl', appCtrl);
+	for(var i=0;i<templates.length;i++){
+		var template = templates[i];
+		uku.registerComponent('my-resume-'+template.name, template.name+'.html');
+	}
+	uku.init();
+	uku.addListener(Ukulele.INITIALIZED, function () {
+		appCtrl.init();
+	});
+
+	function ApplicationController(uku) {
+		this.templates = templates;
+		this.selectedTemplate = this.templates[0];
+
+		this.init = function () {
+
+		};
+
+		function changeStyle(templateName) {
+			var templateStylesheet = document.getElementById("resumeStylesheet");
+			templateStylesheet.setAttribute("href", "./cvresume/css/" + templateName + ".css");
+		};
+		this.changeTemplate = function (e, templateName) {
+
+			changeStyle(templateName);
+			var container = document.getElementById("mainContainer");
+			container.innerHTML = '';
+			var newTemplate = document.createElement('my-resume-' + templateName);
+			container.appendChild(newTemplate);
+			uku.handleElement(newTemplate);
+		};
+	}
+</script>
+
+</html>

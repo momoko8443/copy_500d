@@ -1,0 +1,157 @@
+.wbdCv-baseTop{position:relative; width:100%; height:257px; padding:30px 0 0 10px; background:url("../images/sjs0061/head11.png") top center no-repeat;}
+.wbdCv-baseLeft{float:right; width:270px; height:auto; margin-top:-70px; padding:0 0 10px 20px;}
+.wbdCv-baseRight{float:left; width:550px; height:auto; background:#fff; padding:0 20px 10px 20px;}
+
+.wbdCv-baseLeft .baseItem.template_css a.wbdfont{display:none;}
+
+.wbdCv-baseRight .baseItem.template_css dt{display:inline-block;min-width:260px; height:40px; line-height:36px; padding:0 0 0 20px; margin-left: -21px; margin-bottom:15px; color:#fff; vertical-align:middle;}
+.wbdCv-baseRight .baseItem.template_css dt span{float:none; display:inline-block;}
+.wbdCv-baseRight .baseItem.template_css dt a.wbdfont{font-size:20px; line-height:40px; margin:0 10px 0 0; vertical-align:middle;}
+
+.wbdCv-baseStyle .timeItem.template_css .dd-title span{min-height:30px;}
+.wbdCv-baseStyle .timeItem.template_css .dd-title span.time{width:140px; height:30px; line-height:27px; margin-right:10px;}
+.wbdCv-baseStyle .timeItem.template_css .dd-title span.company{width:160px; padding-top:3px;}
+.wbdCv-baseStyle .timeItem.template_css .dd-title span.post{width:144px; padding-top:3px;}
+
+/*块距*/
+.wbdCv-baseStyle .bInfoItem dl{padding:30px 0;}
+.wbdCv-baseStyle .baseItem.inteItem  dl{padding:30px 0;}
+
+/*工具样式*/
+.wbdCv-baseStyle .nameItem.bInfoItem.current{background:transparent;}
+
+/*头像*/
+.wbdCv-baseStyle .headItem.template_css{position:absolute; right:50px; top:20px; display:inline-block;}
+
+/*姓名*/
+
+.wbdCv-baseStyle .nameItem.template_css{display:inline-block; width:570px; color:#fff;}
+.wbdCv-baseStyle .nameItem.template_css{position:absolute; top:20px; right:200px;}
+.wbdCv-baseStyle .nameItem.template_css .name-con .name,.wbdCv-baseStyle .nameItem.template_css .name-con .word{display:inline-block;}
+.wbdCv-baseStyle .nameItem.template_css .name-con .name{padding-right:10px; font-size:30px; color:#fff;}
+
+/*标签*/
+.wbdCv-baseStyle .nameItem.template_css .name-con .resume_tag{display:inline-block; height:auto; margin-top:16px;}
+.nameItem.template_css .name-con .resume_tag span{border-color:rgba(255,255,255,0.8) !important; color:rgba(255,255,255,0.8) !important;}
+
+/*个人信息*/
+
+.wbdCv-baseStyle .infoItem.template_css{margin-top:80px;}
+.wbdCv-baseStyle .infoItem.template_css dl dt{display:block;}
+.wbdCv-baseStyle .infoItem.template_css dt span{padding-left:0;}
+.wbdCv-baseStyle .infoItem.template_css a.wbdfont{display:none;}
+.wbdCv-baseStyle .infoItem.template_css .info-con div{float: left;margin:20px 0 0 0;width:100%;border-bottom:1px dashed #959595;}
+
+.wbdCv-baseStyle .bInfoItem.template_css dd a.wbdfont{font-size: 12px;width: 20px;height: 20px;line-height: 22px;margin-right: 5px;text-align: center;border-radius: 100%;background: #048BB3;display: inline-block;float: left;color: #fff;}
+.wbdCv-baseStyle .bInfoItem.template_css dd span{float: left;line-height: 20px;color: #959595;width: 200px;padding-bottom:10px;}
+
+.wbdCv-baseStyle .homeItem.template_css{margin-top:10px; margin-left:30px; border-bottom:1px dashed #959595;}
+.wbdCv-baseStyle .homeItem.template_css .home-con .home-list{margin:7px 0;}
+.wbdCv-baseStyle .homeItem.template_css dl{padding-top:0;}
+
+/*社会帐号*/
+.wbdCv-baseStyle .socialItem.template_css a{background:transparent url(../images/social/j17_social.png) no-repeat 0 0; border:1px solid #cecece;}
+
+/*兴趣爱好*/
+.wbdCv-baseStyle .hobbyItem.template_css .hobby-list{margin:0 9px 0 0;}
+.wbdCv-baseStyle .hobbyItem.template_css .hobby-list:nth-child(3n-2){margin-right:0;}
+.wbdCv-baseStyle .hobbyItem.template_css .hobby-list a.wbdfont{display:block; width:60px; height:60px; line-height:60px; font-size:40px; text-align:center;}
+.wbdCv-baseStyle .hobbyItem.template_css .hobby-list .hobby-title{width:60px;}
+
+/*作品展示*/
+.wbdCv-baseStyle .workItem .work-list{width:232px; margin-right:9px; border:1px solid #e9e9e9;}
+.wbdCv-baseStyle .workItem .work-list .work-img{width:230px; height:184px; overflow:hidden;}
+.wbdCv-baseStyle .workItem .work-list .work-img img{display:block; width:100%;}
+.wbdCv-baseStyle .workItem .work-list:nth-of-type(even){margin-right:0;}
+
+/*推荐信*/
+.wbdCv-baseStyle .recoment-list .info{width:414px; float:left; padding-left:15px; padding-top:2px;}
+.wbdCv-baseStyle .recoment-list .info .name{font-size:16px; color:#282828; font-weight:bold; width:100%;}
+.wbdCv-baseStyle .recoment-list .info span{font-size:12px; color:#9f9f9f;}
+.wbdCv-baseStyle .recoment-list .text{color:#7c7c7c;}
+.wbdCv-baseStyle .recoment-list .info span.time{width:111px; text-align:right;}
+.wbdCv-baseStyle .recoment-list .info span.relation{width:283px;}
+
+/*颜色设置*/
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseTop{background:url(../images/sjs0061/head1.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseTop{background:url(../images/sjs0061/head2.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseTop{background:url(../images/sjs0061/head3.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseTop{background:url(../images/sjs0061/head4.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseTop{background:url(../images/sjs0061/head5.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseTop{background:url(../images/sjs0061/head6.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseTop{background:url(../images/sjs0061/head7.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseTop{background:url(../images/sjs0061/head8.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseTop{background:url(../images/sjs0061/head9.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseTop{background:url(../images/sjs0061/head10.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseTop{background:url(../images/sjs0061/head11.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseTop{background:url(../images/sjs0061/head12.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseTop{background:url(../images/sjs0061/head13.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseTop{background:url(../images/sjs0061/head14.png) no-repeat top center;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseTop{background:url(../images/sjs0061/head15.png) no-repeat top center;}
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot1.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot2.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot3.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot4.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot5.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot6.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot7.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot8.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot9.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot10.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot11.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot12.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot13.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot14.png) no-repeat bottom center;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-resume{background:#fff url(../images/sjs0061/foot15.png) no-repeat bottom center;}
+
+
+.wbdCv-baseStyle[data_color="j1"] .bInfoItem.template_css dd a.name{color:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .bInfoItem.template_css dd a.name{color:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .bInfoItem.template_css dd a.name{color:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .bInfoItem.template_css dd a.name{color:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .bInfoItem.template_css dd a.name{color:#37b754;}
+.wbdCv-baseStyle[data_color="j6"] .bInfoItem.template_css dd a.name{color:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .bInfoItem.template_css dd a.name{color:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .bInfoItem.template_css dd a.name{color:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .bInfoItem.template_css dd a.name{color:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .bInfoItem.template_css dd a.name{color:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .bInfoItem.template_css dd a.name{color:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .bInfoItem.template_css dd a.name{color:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .bInfoItem.template_css dd a.name{color:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .bInfoItem.template_css dd a.name{color:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .bInfoItem.template_css dd a.name{color:#69cc41;}
+
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#37b754;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseRight .moduleItem.template_css dt{background-color:#69cc41;}
+
+.wbdCv-baseStyle[data_color="j1"] .bInfoItem.template_css dd a.wbdfont{background:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .bInfoItem.template_css dd a.wbdfont{background:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .bInfoItem.template_css dd a.wbdfont{background:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .bInfoItem.template_css dd a.wbdfont{background:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .bInfoItem.template_css dd a.wbdfont{background:#37b754;}
+.wbdCv-baseStyle[data_color="j6"] .bInfoItem.template_css dd a.wbdfont{background:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .bInfoItem.template_css dd a.wbdfont{background:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .bInfoItem.template_css dd a.wbdfont{background:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .bInfoItem.template_css dd a.wbdfont{background:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .bInfoItem.template_css dd a.wbdfont{background:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .bInfoItem.template_css dd a.wbdfont{background:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .bInfoItem.template_css dd a.wbdfont{background:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .bInfoItem.template_css dd a.wbdfont{background:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .bInfoItem.template_css dd a.wbdfont{background:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .bInfoItem.template_css dd a.wbdfont{background:#69cc41;}
+

@@ -1,0 +1,87 @@
+.wbdCv-resume{padding:20px; background:#fff;}
+.wbdCv-baseTop{position:  relative;height:68px; padding:68px 30px 0 30px; background:#14b0bf; clear:both;}
+.wbdCv-baseRight{padding:180px 30px 0 30px; margin-top:5px; background:#ebf1f1;}
+.wbdCv-baseLeft .baseItem-null{display:none;}
+
+/*基本信息*/
+.headItem.template_css{float:left; width:150px; height:200px; margin:-30px 0 0 0;}
+.headItem.template_css dd{margin:0; padding:0;}
+.headItem.template_css .head-con{margin:0;}
+.bInfoItem.template_css{float:left;width:570px;}
+.bInfoItem.template_css dl{padding:0;}
+.bInfoItem.template_css .info-list{position:relative;display:inline-block;margin: 0 5px;}
+.bInfoItem.template_css .info-list .wbdfont{display:none;}
+.bInfoItem.template_css .info-list:before{top: 5px;right: -10px;position:absolute;content:"";width:1px;border-left: 2px solid #b8b8b8;height: 14px;}
+
+.nameItem.template_css{padding-top: 10px;}
+.nameItem.template_css .name-con .name{color:#222; display:inline-block; margin-right: 5px;}
+.nameItem.template_css .name-con .resume_tag{display:inline-block; height:45px; line-height:47px;}
+.nameItem.template_css .name-con .resume_tag span{border-color:#404552; color:#404552;}
+
+.socialItem.template_css{margin-top:10px;}
+.socialItem.template_css .social-list a{background:transparent url(../images/social/j17_social.png) no-repeat 0 0; border:1px solid #cecece;}
+
+.homeItem.template_css .home-list{width:auto; display:inline-block;}
+
+.inteItem.template_css{border-top:1px solid #fff;}
+
+.baseItem.template_css dl dt{margin-bottom:10px;}
+.baseItem.template_css dl dt span{color:#222;}
+.baseItem.template_css dl dt a.wbdfont,.infoItem.template_css dl dt a.wbdfont{display:none;}
+
+.baseItem.template_css .dd-title span.time{position:relative; width:129px;float:right;margin:0;text-align:right;}
+.baseItem.template_css .dd-title span.company{width:280px;}
+.baseItem.template_css .dd-title span.post{width:260px;}
+
+/*作品展示*/
+.workItem .work-list{width:48%; margin-right:19px;border:1px solid #e9e9e9;}
+.workItem .work-list .work-img{width:100%; overflow:hidden;}
+.workItem .work-list .work-img img{display:block; width:100%;}
+.workItem .work-list:nth-of-type(even){margin-right:0;}
+
+/*兴趣爱好*/
+.hobbyItem.template_css .hobby-list{width:75px;}
+.hobbyItem.template_css .hobby-list{margin:0 32px 20px 0;}
+.hobbyItem.template_css .hobby-list:nth-child(7n+8){margin-right:0;}
+.hobbyItem.template_css .hobby-list a.wbdfont{font-size:28px; display:block; text-align:center; line-height:70px; width:75px; height:70px; border:1px solid #92a2b2; border-radius:4px;}
+.hobbyItem.template_css .hobby-list .hobby-title{width:75px;}
+
+/*职业技能*/
+.skillItem.template_css .skill-list{width:180px; margin:0 80px 20px 0;}
+.skillItem.template_css .skill-list:nth-of-type(3n-2){margin-right:0;}
+.skillItem.template_css .skill-slider{position:relative; width:180px;}
+.skillItem.template_css .skill-slider s{width:180px; background:#f2f2f2;}
+.skillItem.template_css .skill-slider s i{background:#000 !important;}
+.skillItem.template_css .skill-slider span{position:absolute; top:-26px; right:0;}
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseTop{background:#0b70bd url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseTop{background:#254665 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseTop{background:#589bf7 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseTop{background:#ff7171 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseTop{background:#2bc017 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseTop{background:#292929 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseTop{background:#ee7000 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseTop{background:#a29177 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseTop{background:#da180f url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseTop{background:#6b4b24 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseTop{background:#048BB3 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseTop{background:#5974D4 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseTop{background:#9D57CA url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseTop{background:#d4ba38 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseTop{background:#69cc41 url(../images/jm0084/sjs0141_bg.png) no-repeat left bottom;}
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseRight{background: #eef4f8;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseRight{background: #f6fafe;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseRight{background: #fafcff;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseRight{background: #fff9f9;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseRight{background: #f8fff7;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseRight{background: #f6f6f6;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseRight{background: #fffaf5;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseRight{background: #fffbf5;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseRight{background: #fff8f7;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseRight{background: #fffcf7;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseRight{background: #f7fdff;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseRight{background: #fafbff;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseRight{background: #fdfaff;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseRight{background: #fffefa;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseRight{background: #f9fff7;}
